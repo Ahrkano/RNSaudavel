@@ -23,9 +23,12 @@ class Mapa extends TPage
                
         $panel1 = new TPanelGroup('Adesão aos eixos');
         $panel1->add($html1);
+
+        $vbox = TVBox::pack($panel1);
+        $vbox->style = 'width: 100%';
         
            
         // add the template to the page
-        parent::add( TVBox::pack($panel1) );
+        parent::add( $vbox );
     }
 }
