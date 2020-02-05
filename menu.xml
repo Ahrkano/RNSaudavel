@@ -113,6 +113,7 @@
     </menu>
   </menuitem>
   <menuitem label="Navigation">
+    <icon>fas:arrows-alt fa-fw</icon>
     <menu>
       <menuitem label="Mapa RN">
         <action>Mapa</action>
